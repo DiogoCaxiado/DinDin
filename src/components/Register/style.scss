@@ -1,0 +1,87 @@
+.register {
+  width: 620px;
+  height: 900px;
+  padding: 0 64px;
+
+  border-radius: 20px;
+  background-color: #fff;
+
+  .register__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 61px 0 52px;
+
+    h2 {
+      font-family: Rubik;
+      font-size: 36px;
+      font-weight: 700;
+
+      color: #000;
+    }
+
+    img {
+      cursor: pointer;
+      width: 30px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      width: 245px;
+      height: 60px;
+      cursor: pointer;
+
+      font-family: Rubik;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+
+      border: none;
+      border-radius: 10px;
+      background-color: #b9b9b9;
+      color: #fff;
+    }
+
+    .credit {
+      background-color: #3a9ff1;
+    }
+
+    .debit {
+      background-color: #ff576b;
+    }
+  }
+
+  .form__register {
+    display: flex;
+    flex-direction: column;
+
+    margin: 42px 0;
+
+    label {
+      font-family: Rubik;
+      font-size: 24px;
+      font-weight: 500;
+
+      color: #484848;
+    }
+
+    input,
+    select {
+      margin: 26px 0;
+      padding: 0 24px;
+
+      height: 63px;
+      font-size: 18px;
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

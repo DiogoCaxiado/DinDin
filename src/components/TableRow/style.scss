@@ -1,0 +1,49 @@
+.tbody {
+  height: 75px;
+  background-color: #fff;
+}
+
+td {
+  width: 20%;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+
+  border-bottom: 1px solid #e0e0e0;
+  color: #000;
+}
+
+.data__body {
+  font-weight: 700;
+}
+
+.credit {
+  color: #7b61ff;
+  font-weight: 700;
+}
+
+.debit {
+  color: #fa8c10;
+  font-weight: 700;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  position: relative;
+
+  padding: 0 13px;
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.position__popup {
+  position: absolute;
+  top: 32px;
+  right: 12px;
+}

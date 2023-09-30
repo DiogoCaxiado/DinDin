@@ -1,0 +1,73 @@
+.background__login {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(
+      180deg,
+      rgba(5, 237, 227, 0.5) 0%,
+      rgba(100, 95, 251, 0.5) 100%,
+      rgba(100, 95, 251, 0.5) 100%
+    ),
+    url("../../assets/Background.svg"), lightgray 50% / cover no-repeat;
+  background-size: cover;
+
+  .logo {
+    margin: 41px 0 0 100px;
+  }
+
+  .position {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px 0;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 600px;
+
+      h2 {
+        font-family: Rubik;
+        font-size: 52px;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      span {
+        color: #7978d9;
+        font-family: Rubik;
+        font-size: 52px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 33px 0 43px;
+
+        font-family: Rubik;
+        font-size: 28px;
+        color: #fff;
+      }
+
+      button {
+        width: 300px;
+        height: 48px;
+        cursor: pointer;
+
+        border: none;
+        border-radius: 5px;
+        background-color: #7978d9;
+
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+
+        color: #fff;
+      }
+    }
+  }
+}

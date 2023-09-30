@@ -1,0 +1,79 @@
+.resume {
+  width: 238px;
+  height: 200px;
+  padding: 28px 33px 32px;
+
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  background-color: #fafafa;
+
+  h2 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 23px;
+
+    color: #2f2f2f;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .credit,
+  .debit {
+    display: flex;
+    justify-content: space-between;
+
+    span,
+    strong {
+      font-family: Rubik;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  .credit {
+    margin-bottom: 12px;
+
+    span {
+      color: #645ffb;
+    }
+  }
+
+  .debit {
+    span {
+      color: #fa8c10;
+    }
+  }
+
+  .action {
+    color: #2f2f2f;
+  }
+
+  .sale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  h3 {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+
+    color: #2f2f2f;
+  }
+
+  .price {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #3a9ff1;
+  }
+}

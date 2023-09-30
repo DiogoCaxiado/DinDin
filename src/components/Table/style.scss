@@ -1,0 +1,28 @@
+.table {
+  width: 100%;
+  height: fit-content;
+  background-color: #fafafa;
+
+  thead {
+    height: 58px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  th {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+    color: #000;
+  }
+
+  .data__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+}

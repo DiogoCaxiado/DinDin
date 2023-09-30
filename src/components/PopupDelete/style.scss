@@ -1,0 +1,71 @@
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  position: relative;
+  width: 111px;
+  height: 46px;
+
+  border-radius: 4px;
+  background-color: #e4f2fd;
+
+  .arrow {
+    position: absolute;
+    top: -7px;
+    right: 5px;
+  }
+
+  span {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+
+    color: #000;
+  }
+
+  .container__button {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .button {
+    &__yes {
+      width: 37px;
+      height: 15px;
+      cursor: pointer;
+
+      border: none;
+      border-radius: 4px;
+
+      font-family: Rubik;
+      font-size: 9px;
+      font-weight: 500;
+      text-align: center;
+
+      color: #fff;
+      background-color: #3a9ff1;
+    }
+
+    &__no {
+      width: 37px;
+      height: 15px;
+      cursor: pointer;
+
+      border: none;
+      border-radius: 4px;
+
+      font-family: Rubik;
+      font-size: 9px;
+      font-weight: 500;
+      text-align: center;
+
+      color: #fff;
+      background-color: #ff576b;
+    }
+  }
+}

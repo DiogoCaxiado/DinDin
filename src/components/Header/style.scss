@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 118px;
+  padding: 0 100px;
+
+  background: linear-gradient(90deg, #05ede3 0%, #645ffb 100%);
+}
+
+.account {
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  &__name {
+    font-family: Rubik;
+    font-size: 14px;
+    text-align: center;
+
+    color: #fff;
+  }
+
+  &__leave {
+    cursor: pointer;
+    margin-left: 16px;
+  }
+}

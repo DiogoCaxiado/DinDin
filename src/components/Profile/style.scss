@@ -1,0 +1,63 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 611px;
+  height: 770px;
+
+  border-radius: 20px;
+  background: #fff;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 64px;
+
+    h2 {
+      font-family: Rubik;
+      font-size: 36px;
+
+      color: #000;
+    }
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 64px;
+
+    label {
+      font-family: Rubik;
+      font-size: 24px;
+
+      color: #484848;
+    }
+
+    input {
+      height: 62px;
+      padding: 24px;
+      margin: 8px 0 26px;
+
+      border: 1px solid #555;
+      border-radius: 5px;
+
+      font-family: Rubik;
+      font-size: 18px;
+      font-weight: 400;
+
+      background-color: #fff;
+      color: #000;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+
+      margin: 40px;
+    }
+  }
+}

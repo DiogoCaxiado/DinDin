@@ -1,0 +1,30 @@
+.modal__register {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+  height: 760px;
+  padding: 0 28px;
+
+  background-color: white;
+
+  input {
+    height: 54px;
+    margin: 9px 0 28px;
+    padding: 8px;
+
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #fff;
+  }
+
+  a {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+
+    color: #7b61ff;
+  }
+}

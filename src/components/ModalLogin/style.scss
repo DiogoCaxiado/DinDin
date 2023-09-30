@@ -1,0 +1,20 @@
+.modal__login {
+  display: flex;
+  flex-direction: column;
+
+  width: 538px;
+  height: 554px;
+  padding: 0 28px;
+
+  background-color: white;
+
+  input {
+    height: 63px;
+    margin: 9px 0 28px;
+    padding: 8px;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,39 @@
+.main {
+  height: 100vh;
+  position: relative;
+}
+
+.dashboard__background {
+  background: linear-gradient(90deg, #05ede3 0%, #645ffb 100%);
+}
+
+.register {
+  &__edit,
+  &__add {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.profile__edit {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}

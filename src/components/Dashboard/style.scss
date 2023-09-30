@@ -1,0 +1,30 @@
+.dashboard {
+  display: flex;
+  height: calc(100vh - 118px);
+  padding: 80px;
+  gap: 48px;
+
+  border-radius: 60px 60px 0px 0px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.position {
+  &__left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 18px;
+
+    height: 100vh;
+  }
+
+  &__resume {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    height: 100vh;
+    margin-top: 60px;
+  }
+}

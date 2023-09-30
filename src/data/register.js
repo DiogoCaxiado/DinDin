@@ -1,0 +1,32 @@
+export const allRegisters = [
+  {
+    idUser: 1,
+    idRegister: 1,
+    date: "2021-09-01",
+    weekDay: "Segunda",
+    description: "Venda dos brigadeiros",
+    category: "Alimentação",
+    value: "10000",
+    type: "credit",
+  },
+  {
+    idUser: 1,
+    idRegister: 2,
+    date: "2021-04-02",
+    weekDay: "Quarta",
+    description: "Mercado da esquina",
+    category: "Compras",
+    value: "20000",
+    type: "credit",
+  },
+  {
+    idUser: 1,
+    idRegister: 3,
+    date: "2021-07-18",
+    weekDay: "Sexta",
+    description: "Compra das fraldas",
+    category: "Compras",
+    value: "10000",
+    type: "debit",
+  },
+];

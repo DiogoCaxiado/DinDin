@@ -1,0 +1,57 @@
+.filterOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+
+  width: 200px;
+  height: 24px;
+  padding: 0 10px;
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+
+  background-color: #fafafa;
+
+  span {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #000;
+  }
+
+  img {
+    width: 10px;
+  }
+
+  &__selected {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    width: 200px;
+    height: 24px;
+    padding: 0 10px;
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+
+    background-color: #7978d9;
+
+    span {
+      font-family: Rubik;
+      font-size: 12px;
+      font-weight: 400;
+
+      color: #ffffff;
+    }
+
+    img {
+      width: 14px;
+    }
+  }
+}
